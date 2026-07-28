@@ -21,7 +21,7 @@ form.addEventListener("submit", onSubmit);
 
 function onSubmit(event) {
     event.preventDefault();
-
+    console.log("Submit works");
     const query = event.currentTarget.elements["search-text"].value.trim();
 
     if (!query) {
